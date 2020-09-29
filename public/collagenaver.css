@@ -1,0 +1,32 @@
+.navbar { 
+	display: flex; 
+	justify-content: space-between; 
+	} 
+
+	.navbar-collapse { 
+	flex-grow: 0; 
+	} 
+
+	.navbar-expand-lg .navbar-collapse { 
+	justify-content: flex-end; 
+	} 
+
+	.flex-mobile-nav { 
+	display: flex; 
+	justify-content: space-between; 
+	width: 100%; 
+	} 
+
+	.nav-container-nav { 
+	max-width: 1024px; 
+	margin: 0 auto; 
+	width: 100%; 
+	display: flex; 
+	} 
+
+	.navbar a { 
+	font-size: 1.1rem !important; 
+	font-weight: bold; 
+	text-transform: uppercase !important; 
+	color: black !important; 
+	} 
